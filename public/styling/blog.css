@@ -1,0 +1,54 @@
+body {
+    background: url("../images/blog_background.jpg") no-repeat center top;
+}
+
+a {
+    text-align: center;
+}
+
+.navbar {
+    background: url("../images/navbar_background.jpg") no-repeat;
+    background-size: 100% 100%;
+    border-color: #333333;
+    border-radius: 0;
+    margin: 0;
+}
+
+.nav {
+    color: #BEBEBE;
+}
+
+.panel {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-nav>li>a {
+    padding-bottom: 10px;
+}
+
+#title {
+    text-align: center;
+    height: 100%;
+}
+
+#blog_posts {
+
+}
+
+#welcome_text {
+    position: relative;
+    top: 60px;
+    right: 35px;
+    float: right;
+    color: #BEBEBE;
+    transform: skewY(160deg);
+    -webkit-transform: skewY(160deg);
+    font: bold 34px Copperplate, Sans-Serif;
+    text-align: center;
+    text-shadow: 10px 10px 8px black;
+}
+
+#shiro {
+    float: right;
+}
